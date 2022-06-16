@@ -1,0 +1,72 @@
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.select_language{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+}
+.active_language{
+    border-top: 4px solid red;
+}
+
+.header{
+    position: relative;
+}
+
+.follow_us{
+    position: absolute;
+}
+
+.follow_us_txt{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+.fblogo,.twtlogo
+{
+    height: 30px;
+    width: 30px;
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.tie_logo{
+    margin: 0 auto;
+    padding: 12px 0 8px;
+    z-index: 9999;
+}
+.tie_logo, .tie_logo img{
+    width: 400px;
+    height: 40px;
+    display: block;
+}
+
+a{
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+    outline: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.date{
+    display: block;
+    text-align: center;
+}
