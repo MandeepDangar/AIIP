@@ -3,7 +3,44 @@
     font-size: 16px;
 }
 #gallerytitle{
-    font-weight: bold;
-    font-size: 16px;
-    color: red;
+    color:red
 }
+
+.container {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .container img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+  }
+
+  .subcontainer {
+    position: relative;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+  }
+
+  .subcontainer > .bottom-left {
+    position: absolute;
+    bottom: 5px;
+    width: 45%;
+  }
+
+  .subcontainer img{
+    height: 90%;
+    width: 90%;
+  } 
