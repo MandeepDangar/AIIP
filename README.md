@@ -5,3 +5,5 @@
 10 - 06 - 2022 : Completed reading of HTML document and started CSS and compeleted first part of CSS and assesment in css first part completed.
 15 - 06 - 2022 : Started working on assignment
 16 - 06 - 2022 : Created first page around 90%
+
+Changes required
