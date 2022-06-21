@@ -32,15 +32,29 @@
     display: inline-block;
     height: 50%;
     width: 50%;
+    float: left;
   }
 
   .subcontainer > .bottom-left {
     position: absolute;
     bottom: 5px;
-    width: 45%;
+    width: 90%;
   }
 
   .subcontainer img{
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
+    margin-left: 2%;
   } 
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 5px;
+    right: 12px;
+  }
