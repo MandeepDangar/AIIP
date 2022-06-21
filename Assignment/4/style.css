@@ -29,7 +29,6 @@
     color: black;
     font-weight: bold;
     font-size: 24px;
-    display: inline-block;
     height: 50%;
     width: 50%;
     float: left;
@@ -42,19 +41,12 @@
   }
 
   .subcontainer img{
-    height: 95%;
-    width: 95%;
-    margin-left: 2%;
+    height: 98%;
+    width: 98%;
   } 
 
   .container::after {
     content: "";
     clear: both;
     display: table;
-  }
-
-  .top-right {
-    position: absolute;
-    top: 5px;
-    right: 12px;
   }
